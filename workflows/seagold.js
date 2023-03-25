@@ -421,12 +421,12 @@ async function run(args) {
   });
 }
 
-run(process.argv.splice(2)).catch(error => {
-  notification.pushMessage({
-    title: "海底掘金游戏",
-    content: `<strong>Error</strong><pre>${error.message}</pre>`,
-    msgtype: "html"
-  });
+// run(process.argv.splice(2)).catch(error => {
+//   notification.pushMessage({
+//     title: "海底掘金游戏",
+//     content: `<strong>Error</strong><pre>${error.message}</pre>`,
+//     msgtype: "html"
+//   });
 
-  throw error;
-});
+//   throw error;
+// });
